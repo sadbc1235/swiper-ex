@@ -15,4 +15,27 @@ a {
   text-decoration: none;
 }
 
+main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(45deg, violet, cornflowerblue);
+  position: relative;
+}
+main .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+main .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
